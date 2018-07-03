@@ -1,0 +1,18 @@
+{
+  "name": "JStracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  },
+  "scripts": {
+    "server": "browser-sync start --server --files \"*.css, *.html, *.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
